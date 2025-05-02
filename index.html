@@ -1,126 +1,170 @@
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name | Full Stack Web Developer</title>
+   <body>
+    <header>
+    <h1>Your Name</h1>
+    <p>Hi, I’m Your Name, a passionate Full Stack Web Developer specializing in building responsive, user-friendly websites and applications. With expertise in both frontend and backend technologies, I create seamless digital experiences that solve real-world problems. Let’s build something great together!</p>
+  </header>
 
-<body>
-    <div id="main">
-        <section class="header">
+  <nav>
+    <a href="#about-me" tabindex="1">About Me</a>
+    <a href="#skills" tabindex="2">Skills</a>
+    <a href="#projects" tabindex="3">Projects</a>
+    <a href="#experience" tabindex="4">Experience</a>
+    <a href="#testimonials" tabindex="5">Testimonials</a>
+    <a href="#contact" tabindex="6">Contact</a>
+  </nav>
 
-            <div class="left-col-head">
-
-                <h4>portfolio</h4>
-
-            </div>
-            <div class="right-col-head">
-                <h4>menu</h4>
-
-            </div>
-        </section>
-        <section class="hero">
-
-            <div class="hero-image">
-                <div class="right-col-hero">
-                    <h1 id=" heroHeading"> hii im' <br> fullstack devloper</h1>
-                
-              <div class="hero-txt"> <p ><br>Lorem ipsum, dolor sit amet consectetur adipisicing
-                     elit. Nulla debitis rerum, 
-                     necessitatibus dignissimos 
-                     nostrum cum, maiores quis fugiat itaque sed 
-                     obcaecati quidem hic cumque.</p>
-                    <button class='btnMain'> HireMe</button></div> 
-            
-              <div class="left-col-hero">
-
-                </div>
-            </div>
-        </section>
-    </div>
-    <section  id ="about">
-        <div class="about-main-head">
-<h2 class="about-head">
-    My journey in Tech:<strong class="about-head-clip">From Dreams to Code</strong> 
-</h2>
-
-<span class="about-head-sec" ></span>
-
-
-</div>
-<h4 class="about-h4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, culpa?</h4>
-<div class="about-sec">
-<p class="about-paragraph-top"> Lorem, ipsum dolor <br> sit amet consectetur adipisicing elit. Aut fuga corporis quaerat, minus sequi inventore nemo tenetur dolorem placeat quis voluptatem, maxime libero sapiente enim architecto natus. Maxime sunt vero veritatis excepturi vitae.
-</p>
-</div>
-
-
-
+  <main>
+    <section id="about-me" tabindex="0">
+      <h2>About Me</h2>
+      <p>I am a dedicated web developer with 3+ years of experience in designing and developing scalable web applications. I’m proficient in frontend technologies like HTML, CSS, JavaScript (with frameworks such as React and Vue.js) and backend technologies including Node.js, Express, and databases like MongoDB and MySQL.</p>
+      <p>My journey started with a fascination for how the web works, which led me to learn coding through online courses and practical projects. I enjoy transforming ideas into functional and beautiful websites by focusing on clean code, efficient performance, and great user experience.</p>
+      <p>Whether working independently or collaborating within a team, I am committed to continuous learning and adapting to new technologies and best practices to deliver the best results for clients and users alike.</p>
     </section>
-    <section id="about-career">
-        <div class="main-career">
-            <div class="career-left">
-<h2 class="clip-h2">my <strong class="about-head-clip">career</strong> so far</h2>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore inventore aliquid porro ab. Facere eligendi ut quibusdam, blanditiis tenetur vitae non! Eum cupiditate quasi, commodi quas, perferendis excepturi ut impedit molestiae fugiat in aut.</p>
-            </div>
-            <div class="career-right">
-<img src="images/react.png" alt="">
-<img src="images/css.png" alt="">
-<img src="images/html.jpeg" alt="">
-<img src="images/javascript (2).png" alt="">
-<img src="images/node.png" alt="">
-<img src="images/express.png" alt="">
-<img src="images/tailwind.png" alt="">
-<img src="images/sql.jpeg" alt="">
-<img src="images/mongodb.png" alt="">
-<img src="images/boostrap.jpeg" alt="">
-<img src="images/jquer.jpeg" alt="">
-<img src="images/thunder.png" alt="">
-<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum aut officiis veniam, quia unde vitae possimus consectetur illum cupiditate repellendus eum provident aperiam voluptatem sed qui. Excepturi ipsam dolorum odio consectetur? Blanditiis, sint? Libero corrupti eveniet quam, vero provident, ullam obcaecati doloremque fugit beatae tempora, nam eum reiciendis nobis quidem porro. Laudantium, omnis.</p> -->
-            </div>
+
+    <section id="skills" tabindex="0">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill-category" aria-label="Frontend Skills">
+          <h3>Frontend</h3>
+          <ul class="skill-list">
+            <li>HTML5, CSS3, JavaScript (ES6+)</li>
+            <li>React.js, Vue.js</li>
+            <li>Bootstrap, Tailwind CSS</li>
+            <li>Responsive & Mobile-first Design</li>
+            <li>Cross-browser Compatibility</li>
+          </ul>
         </div>
-        <div class="career-row main-career">
-            <div class="left-col carrer-left">
-                <br>
-                <button>hii jkbjh jijj</button>
-                <button>iuhu uhu hh jh</button>
-                <button> gyghu</button>
-                <button>hjhj jhjh </button>
-            </div>
-            <div class="right-col career-right">
-<h2 class="clip-h2">my <strong class="about-head-clip">intrest</strong> so far</h2>
-
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, magni neque! Suscipit corporis labore tempora repellat, dolorem at eum quaerat, tempore expedita quis repudiandae. Saepe explicabo nam rerum. Sint excepturi quos cupiditate ex veritatis?</p>
-            </div>
+        <div class="skill-category" aria-label="Backend Skills">
+          <h3>Backend</h3>
+          <ul class="skill-list">
+            <li>Node.js, Express.js</li>
+            <li>RESTful API Development</li>
+            <li>Databases: MongoDB, MySQL</li>
+            <li>Authentication & Authorization (JWT, OAuth)</li>
+            <li>Basic DevOps & Deployment (Heroku, Netlify)</li>
+          </ul>
         </div>
-    </section>
-    <section id = "contact">
-<div class="contact-para">
-  <h2 class="clip-h2">  lets   <strong class="about-head-clip">connect</strong> and
-  <br>  <strong class="about-head-clip">collabrete</strong> </h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nostrum velit quod excepturi vitae illum rerum eligendi vero voluptatum. Distinctio, ad, pariatur veniam accusantium vero reiciendis magnam aperiam sunt nihil nulla, quis molestias a?</p>
-</div>
-<div class="contact-social">
-    <br>
-<img src="images/linkdn.png" alt="">
-<img src="images/fb.png" alt="">
-<img src="images/indsta.png" alt="">
-<img src="images/whatsapp.png" alt="">
-    
-</div>
-    </section>
-    <section id="hobby">
-        <div class="hobbi-one"><h3>audio books</h3><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias dignissimos autem voluptas, sapiente mollitia facere eligendi cum debitis? Velit sequi dolore ratione eius, optio harum porro, architecto quo dignissimos asperiores exercitationem ab voluptas ex.</p></div>
-        <div class="hobbi-one">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse delectus facilis, porro officia adipisci rem expedita doloremque consequatur, possimus quia fugit!</div>
-        <div class="hobbi-one">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, totam adipisci. Necessitatibus nihil nisi ratione cum repudiandae, nostrum maxime blanditiis doloribus dolorum?</div>
-        <div class="hobbi-one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptate explicabo consequatur quis molestiae tempora?</div>
-        <div class="hobbi-one">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam ut quisquam hic minima reprehenderit doloribus laborum similique? Error quisquam ex amet rerum!</div>
+      </div>
     </section>
 
+    <section id="projects" tabindex="0">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card" tabindex="0" aria-labelledby="proj1-title">
+          <img src="https://via.placeholder.com/400x160?text=Project+1" alt="Screenshot of Project 1" class="project-image" />
+          <div class="project-content">
+            <h3 id="proj1-title" class="project-title">Portfolio Website</h3>
+            <p class="project-desc">A personal portfolio website to showcase my projects and skills, built with React and styled-components.</p>
+            <p class="project-tech">React, CSS-in-JS, JavaScript</p>
+            <div class="project-links">
+              <a href="https://your-portfolio-live-link.com" target="_blank" rel="noopener" aria-label="Live demo of Portfolio Website">Live Demo</a>
+              <a href="https://github.com/yourusername/portfolio" target="_blank" rel="noopener" aria-label="Source code of Portfolio Website on GitHub">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" tabindex="0" aria-labelledby="proj2-title">
+          <img src="https://via.placeholder.com/400x160?text=Project+2" alt="Screenshot of Project 2" class="project-image" />
+          <div class="project-content">
+            <h3 id="proj2-title" class="project-title">E-commerce API</h3>
+            <p class="project-desc">A RESTful API backend for an e-commerce platform, handling product CRUD, user authentication, and order processing.</p>
+            <p class="project-tech">Node.js, Express, MongoDB</p>
+            <div class="project-links">
+              <a href="https://your-api-docs-link.com" target="_blank" rel="noopener" aria-label="Live API documentation for E-commerce API">Live Demo</a>
+              <a href="https://github.com/yourusername/ecommerce-api" target="_blank" rel="noopener" aria-label="Source code of E-commerce API on GitHub">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" tabindex="0" aria-labelledby="proj3-title">
+          <img src="https://via.placeholder.com/400x160?text=Project+3" alt="Screenshot of Project 3" class="project-image" />
+          <div class="project-content">
+            <h3 id="proj3-title" class="project-title">Task Manager App</h3>
+            <p class="project-desc">A full stack task management app featuring real-time updates, user authentication, and responsive UI.</p>
+            <p class="project-tech">Vue.js, Node.js, Socket.io</p>
+            <div class="project-links">
+              <a href="https://your-taskapp-live-link.com" target="_blank" rel="noopener" aria-label="Live demo of Task Manager App">Live Demo</a>
+              <a href="https://github.com/yourusername/task-manager" target="_blank" rel="noopener" aria-label="Source code of Task Manager App on GitHub">Source Code</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" tabindex="0">
+      <h2>Experience</h2>
+
+      <div class="experience-item">
+        <h3>Front-end Development Intern | XYZ Company</h3>
+        <p class="experience-date">June 2022 - August 2022</p>
+        <ul class="experience-list">
+          <li>Developed responsive UI components using React and Redux.</li>
+          <li>Collaborated with designers and backend developers to create seamless user interfaces.</li>
+          <li>Improved application performance by optimizing code and reducing load times.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <h3>Freelance Web Developer</h3>
+        <p class="experience-date">January 2021 - Present</p>
+        <ul class="experience-list">
+          <li>Built multiple custom websites for small businesses using HTML, CSS, JavaScript, and backend technologies such as Node.js.</li>
+          <li>Integrated RESTful APIs and implemented authentication for secure user experiences.</li>
+          <li>Provided ongoing maintenance and updates to client websites.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <h3>Open Source Contributor</h3>
+        <ul class="experience-list">
+          <li>Contributed bug fixes and new features to popular web development repositories on GitHub.</li>
+          <li>Engaged with the developer community to share knowledge and best practices.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="testimonials" tabindex="0">
+      <h2>Testimonials</h2>
+      <div class="testimonials">
+        <blockquote class="testimonial" tabindex="0">
+          <p>Your work ethic and attention to detail are outstanding. Our website’s new design boosted engagement significantly.</p>
+          <footer class="testimonial-author">- Jane Smith, CEO of TechStart</footer>
+        </blockquote>
+
+        <blockquote class="testimonial" tabindex="0">
+          <p>Reliable developer with strong backend skills. Always proactive and meets deadlines with quality results.</p>
+          <footer class="testimonial-author">- John Doe, Project Manager at SoftCorp</footer>
+        </blockquote>
+
+        <blockquote class="testimonial" tabindex="0">
+          <p>Great collaborator who wrote clean, efficient code and presented clear explanations throughout the project.</p>
+          <footer class="testimonial-author">- Aisha Khan, UI/UX Designer</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="contact" tabindex="0">
+      <h2>Contact Me</h2>
+      <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Full Name" required aria-label="Your Full Name" />
+        <input type="email" name="email" placeholder="Your Email Address" required aria-label="Your Email Address" />
+        <textarea name="message" rows="6" placeholder="Your Message" required aria-label="Your Message"></textarea>
+        <button type="submit" aria-label="Send Message">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Your Name. Connect with me on
+      <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener" aria-label="LinkedIn profile">LinkedIn</a> |
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener" aria-label="GitHub profile">GitHub</a>
+    </p>
+  </footer>
 </body>
-<script src="index.js"></script>
-
-</html>
+              </html>
+              
